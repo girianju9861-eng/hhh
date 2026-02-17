@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Anju Giri | Personal Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+/* HERO IMAGE */
+.hero img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: rgba(0,0,0,0.25);
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover,
+nav a:focus {
+    text-decoration: underline;
+}
+
+/* MAIN CONTENT */
+main {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* SECTIONS */
+.section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 40px 0;
+    flex-wrap: wrap;
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 3px solid white;
+}
+
+.section-text {
+    max-width: 600px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background-color: rgba(0,0,0,0.25);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .section {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Anju Giri</h1>
+    <p>Business Analyst Student | Web Application & AI-Assisted Development Learner</p>
+</header>
+
+<!-- HERO IMAGE -->
+<section class="hero">
+    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475"
+         alt="Abstract technology background representing web development and digital innovation">
+</section>
+
+<nav aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="resume.html">Resume</a>
+    <a href="projects.html">Projects</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<main>
+
+    <!-- SECTION 1 -->
+    <section class="section">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
+             alt="Study workspace with laptop and notebook representing web development and business analysis work">
+
+        <div class="section-text">
+            <h2>Welcome to My Portfolio</h2>
+            <p>
+                This website was created as part of my HTML and CSS Web Application
+                assessment. It showcases my learning journey, technical skills,
+                and academic projects in web development and business analysis.
+            </p>
+        </div>
+    </section>
+
+    <!-- SECTION 2 -->
+    <section class="section">
+        <img src="https://images.unsplash.com/photo-1581090700227-1e37b190418e"
+             alt="Digital illustration representing artificial intelligence and human computer collaboration">
+
+        <div class="section-text">
+            <h2>Human-in-the-Loop Development</h2>
+            <p>
+                In this project, I acted as the <strong>Tech Lead</strong> by
+                directing AI tools to support design, coding, and content
+                creation. I reviewed and validated all outputs to ensure
+                accuracy, usability, and academic integrity.
+            </p>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Anju Giri | Personal Portfolio</p>
+</footer>
+
+</body>
+</html>
